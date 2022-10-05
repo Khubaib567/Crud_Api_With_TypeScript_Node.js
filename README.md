@@ -1,1 +1,1 @@
-# node.js_with_tyepscript
+# Typescript setup with Node.js 
