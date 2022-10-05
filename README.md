@@ -7,3 +7,4 @@ In this project, i have configure the typesrcipt along with the custom type decl
 In order to avoid any inconvenience i have uploaded all the node packages that's neccessary for run the project.
 Here is the output:
 ## Output:
+![Untitled](https://user-images.githubusercontent.com/49817481/194007411-3b4b7f7e-945c-41cf-9a5b-742d3529098d.png)
