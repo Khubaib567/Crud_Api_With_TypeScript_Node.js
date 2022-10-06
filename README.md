@@ -16,5 +16,15 @@ Here i also give the command for installing this packages copay & paste on your 
 **npm i -g typescript ts-node ts-node-dev rimraf express nodemon dotenv helment @types/express @types/dotenv @types/helmet**
 
 Here is the output:
-## Output:
-![Untitled](https://user-images.githubusercontent.com/49817481/194007411-3b4b7f7e-945c-41cf-9a5b-742d3529098d.png)
+## API Endpoints:
+
+CREATE ONE USER http://localhost:7000/api/users/
+GET ALL USERS http://localhost:7000/api/users/
+GET ONE USER  http://localhost:7000/api/users/:id
+UPDATE A USER  http://localhost:7000/api/users/:id
+DELETE A USER  http://localhost:7000/api/users/:id
+
+
+
+
+
