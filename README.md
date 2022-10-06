@@ -6,6 +6,9 @@ In this project, i have configure the typesrcipt along with the custom type decl
 
 ## Required Packages:
 
+Here i have mentioned all the required document which you can see on the screenshot
+![packages](https://user-images.githubusercontent.com/49817481/194229732-a7da2963-e1ec-4ff4-acfc-1235a924669e.png)
+
 
 In order to avoid any inconvenience i have uploaded a screenshot of all the node packages that's neccessary for run the project.
 Here i also give the command for installing this packages copay & paste on your terminal:
