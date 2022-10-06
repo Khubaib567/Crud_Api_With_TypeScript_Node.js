@@ -5,8 +5,8 @@ In this project, i have configure the typesrcipt along with the custom type decl
 ![Untitled](https://user-images.githubusercontent.com/49817481/194006815-1eb6166f-090e-428a-9db7-5124c11dbb16.png)
 
 ## Required Packages:
-
 Here i have mentioned all the required document which you can see on the screenshot
+
 ![packages](https://user-images.githubusercontent.com/49817481/194229732-a7da2963-e1ec-4ff4-acfc-1235a924669e.png)
 
 
