@@ -18,11 +18,21 @@ Here i also give the command for installing this packages copay & paste on your 
 Here is the output:
 ## API Endpoints:
 
-CREATE ONE USER http://localhost:7000/api/users/
-GET ALL USERS http://localhost:7000/api/users/
-GET ONE USER  http://localhost:7000/api/users/:id
-UPDATE A USER  http://localhost:7000/api/users/:id
-DELETE A USER  http://localhost:7000/api/users/:id
+CREATE ONE USER 
+
+http://localhost:7000/api/users/
+GET ALL USERS 
+
+http://localhost:7000/api/users/
+GET ONE USER  
+
+http://localhost:7000/api/users/:id
+UPDATE A USER  
+
+http://localhost:7000/api/users/:id
+DELETE A USER  
+
+http://localhost:7000/api/users/:id
 
 
 
