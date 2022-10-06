@@ -21,15 +21,19 @@ Here is the output:
 CREATE ONE USER 
 
 http://localhost:7000/api/users/
+
 GET ALL USERS 
 
 http://localhost:7000/api/users/
+
 GET ONE USER  
 
 http://localhost:7000/api/users/:id
+
 UPDATE A USER  
 
 http://localhost:7000/api/users/:id
+
 DELETE A USER  
 
 http://localhost:7000/api/users/:id
