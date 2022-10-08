@@ -20,9 +20,9 @@ usersRouter.get("/", async (req: Request, res: Response) => {
     try {
       const users: User[] = await UserService.findAll();
   
-      res.status(200).send(users);
+      res.status(200).send({users});
     } catch (e) {
-      res.status(500).send(e);
+      res.status(500).send({e});
     }
   });
 
@@ -38,9 +38,9 @@ usersRouter.get("/:id", async (req: Request, res: Response) => {
         return res.status(200).send(user);
       }
   
-      res.status(404).send("item not found");
+      res.status(404).send({message: "item not found"});
     } catch (e) {
-      res.status(500).send(e);
+      res.status(500).send({e});
     }
   });
 
@@ -52,9 +52,9 @@ usersRouter.post("/", async (req: Request, res: Response) => {
   
       const newItem = await UserService.create(user);
   
-      res.status(201).json(newItem);
+      res.status(201).send({newItem});
     } catch (e) {
-      res.status(500).send(e);
+      res.status(500).send({e});
     }
   });
 
@@ -70,14 +70,14 @@ usersRouter.put("/:id", async (req: Request, res: Response) => {
   
       if (existingUser) {
         const updatedUser = await UserService.update(id, userUpdate);
-        return res.status(200).json(updatedUser);
+        return res.status(200).send({updatedUser});
       }
   
       const userItem = await UserService.create(userUpdate);
   
-      res.status(201).json(userItem);
+      res.status(201).send({userItem});
     } catch (e) {
-      res.status(500).send(e);
+      res.status(500).send({e});
     }
   });
 
@@ -88,8 +88,8 @@ usersRouter.delete("/:id", async (req: Request, res: Response) => {
       const id: number = parseInt(req.params.id, 10);
       await UserService.remove(id);
   
-      res.sendStatus(204);
+      res.status(200).send({message:`User with ${id} has been deleted!`});
     } catch (e) {
-      res.status(500).send(e);
+      res.status(500).send({e});
     }
   });
